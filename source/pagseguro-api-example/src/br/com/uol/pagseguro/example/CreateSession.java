@@ -18,7 +18,7 @@ public class CreateSession {
 
             System.out.println("Session ID: " + sessionId);
         } catch (PagSeguroServiceException e) {
-            System.err.println(e.getMessage());
+            System.out.println(e.getMessage());
         }
     }
 
